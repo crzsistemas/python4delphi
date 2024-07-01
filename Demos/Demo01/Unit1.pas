@@ -12,7 +12,6 @@ uses
 
 type
   TForm1 = class(TForm)
-    PythonEngine1: TPythonEngine;
     Memo1: TMemo;
     Panel1: TPanel;
     Button1: TButton;
@@ -23,6 +22,7 @@ type
     SaveDialog1: TSaveDialog;
     PythonGUIInputOutput1: TPythonGUIInputOutput;
     Memo2: TMemo;
+    PythonEngine1: TPythonEngine;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);

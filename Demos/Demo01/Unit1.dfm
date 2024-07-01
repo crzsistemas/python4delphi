@@ -97,10 +97,6 @@ object Form1: TForm1
     ScrollBars = ssBoth
     TabOrder = 2
   end
-  object PythonEngine1: TPythonEngine
-    IO = PythonGUIInputOutput1
-    Left = 32
-  end
   object OpenDialog1: TOpenDialog
     DefaultExt = '*.py'
     Filter = 'Python files|*.py|Text files|*.txt|All files|*.*'
@@ -117,6 +113,11 @@ object Form1: TForm1
     UnicodeIO = True
     RawOutput = False
     Output = Memo2
-    Left = 64
+    Left = 304
+    Top = 8
+  end
+  object PythonEngine1: TPythonEngine
+    Left = 256
+    Top = 176
   end
 end
